@@ -58,7 +58,7 @@ learnerClass          = GradientBoostingRegressor
 # Param 1:       `DataFrame` containing all data, training and test. Splitting's dealt with automatically
 # Param 2:       `String` target feature/column name
 # Param 3:       `Array` of HyperParameterConfig`s which define the solution space
-# splitSize:     `flot` test data split size 0 < splitSize < 1 where higher = less training data (Yeah, I know... Too late now)
+# splitSize:     `float` test data split size 0 < splitSize < 1 where higher = less training data (Yeah, I know... Too late now)
 # maxCacheSize:  `int` Size of the tournament table. Once the size is breached, the tournament begins
 # stepLimit:     `int` Number of offspring that can attempt to outperform its parent and be allowed to (This is Sparta!)
 # machineClass:  `sklearn-ensemble` learner to create the model. Param 3 needs to have values related to this learner
